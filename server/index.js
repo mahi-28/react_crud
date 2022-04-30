@@ -15,6 +15,10 @@ app.get("/api/get", (req, res) => {
   });
 });
 
+app.post("/api/post", (req,res) => {
+  const {name, email, }
+})
+
 app.get("/", (req, res) => {
   const sqlInsert =
     "INSERT INTO contact_db (name,email,phone) VALUES ('Madhuri Farade','madhurifarade@gmail.com',779865467)";
